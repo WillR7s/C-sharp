@@ -1,0 +1,15 @@
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\bin\Debug\net10.0\Heranca.exe
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\bin\Debug\net10.0\Heranca.deps.json
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\bin\Debug\net10.0\Heranca.runtimeconfig.json
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\bin\Debug\net10.0\Heranca.dll
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\bin\Debug\net10.0\Heranca.pdb
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\obj\Debug\net10.0\Heranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\obj\Debug\net10.0\Heranca.AssemblyInfoInputs.cache
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\obj\Debug\net10.0\Heranca.AssemblyInfo.cs
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\obj\Debug\net10.0\Heranca.csproj.CoreCompileInputs.cache
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\obj\Debug\net10.0\Heranca.sourcelink.json
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\obj\Debug\net10.0\Heranca.dll
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\obj\Debug\net10.0\refint\Heranca.dll
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\obj\Debug\net10.0\Heranca.pdb
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\obj\Debug\net10.0\Heranca.genruntimeconfig.cache
+C:\Users\42504003870\Desktop\C#-Sharp\Heranca\obj\Debug\net10.0\ref\Heranca.dll
