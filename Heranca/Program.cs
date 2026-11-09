@@ -6,7 +6,14 @@ gerente.Nome = "Carlos";
 gerente.Codigo = 123;
 gerente.Trabalhar();
 gerente.GerenciarEquipe();
-gerente.
+
+
+Gerente gerente2 = new Gerente
+{
+    Nome ="Marcos",
+    salario= "3000m"
+};
+
 
 
 Funcionario f = new Gerente(); 

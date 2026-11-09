@@ -11,12 +11,16 @@ public abstract class Funcionario
             Console.WriteLine("Funcionário está executando Atividades.");
         }
 
-
-public Funcionario(string nome, decimal salario)
-        {
-            Nome = nome;
-            Salario = salario;
-        }
+            public Funcionario()
+                    {
+                        
+                    }
+                    
+            public Funcionario(string nome, decimal salario)
+                    {
+                        Nome = nome;
+                        Salario = salario;
+                    }
 
 
 

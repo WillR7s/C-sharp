@@ -11,6 +11,10 @@
                 Console.WriteLine("O gestor está gerenciando a equipe.");
             }
 
+            public Gerente()
+        {
+            
+        }
 
             public Gerente(string nome, decimal salario) :base(nome, salario)
             {
