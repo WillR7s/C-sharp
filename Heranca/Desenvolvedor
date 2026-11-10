@@ -1,0 +1,9 @@
+namespace Heranca
+{
+    
+public class Desenvolvedor : Funcionario
+    {
+        public decimal CalcularBonus();
+    }
+
+}

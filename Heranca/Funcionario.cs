@@ -22,7 +22,7 @@ public abstract class Funcionario
                         Salario = salario;
                     }
 
-
+        public abstract decimal CalcularBonus();
 
 
    }

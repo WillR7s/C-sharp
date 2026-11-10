@@ -20,3 +20,10 @@ gerente2.ExibirSalario();
 Funcionario f = new Gerente(); 
 /* Crie um objeto do tipo gerente e permita que a varivel f,
  declarada como funcionario, referêncie esse objeto*/
+
+
+IPagamento p1 = new PagamentoPix();
+IPagamento p2 = new PagamentoCartao();
+
+p1.Pagar(150m);
+p2.Pagar(20m);

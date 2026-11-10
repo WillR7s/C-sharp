@@ -32,5 +32,10 @@
         {
             Salario = Valorsalario;
         }
+
+        public override decimal CalcularBonus()
+        {
+            return 1000m;
+        }
     }
     }
