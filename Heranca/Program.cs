@@ -11,9 +11,10 @@ gerente.GerenciarEquipe();
 Gerente gerente2 = new Gerente
 {
     Nome ="Marcos",
-    salario= "3000m"
+   
 };
-
+gerente2.DefinirSalario(2000m);
+gerente2.ExibirSalario();
 
 
 Funcionario f = new Gerente(); 

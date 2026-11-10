@@ -24,7 +24,13 @@
 
             public void ExibirSalario()
         {
-            Console.WriteLine(Salario);
+            Console.WriteLine($"Salário: {Salario:C}");  // Valor moeda
         }
+
+        public void DefinirSalario
+        (decimal Valorsalario)
+        {
+            Salario = Valorsalario;
         }
+    }
     }
