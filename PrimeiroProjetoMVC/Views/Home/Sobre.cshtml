@@ -1,0 +1,75 @@
+@using System.Runtime.CompilerServices
+@{
+    ViewData["Title"] = "Sobre";
+}
+
+<h1>Sobre</h1>
+<p>Versão: @ViewBag.Versao</p>
+
+@if(ViewBag.ParametroId != null)
+{
+    <p>Parametro "id" recebido pela rota: 
+        <strong>@ViewBag.ParametroId</strong>
+    </p>
+    
+}
+
+else
+{
+    <p>Nenhum parâmetro "id" foi passado pela rota.
+        Tente acessar <a href="/Home/Sobre/42">/Home/Sobre/42</a>
+    </p>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+body{
+    background-color: #235F91;
+    
+}
+
+a{
+    text-decoration: none;
+    color:White;
+}
+
+h1{
+    color:#C5D9EB;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+p{
+    color:#F7F7F7;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+</style>

@@ -2,7 +2,87 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Página Inicial</h1>
+<p>@ViewData["Mensagem"]</p>
+
+@if(DateTime.Now.Hour < 12)
+{
+    <p>Bom Dia!</p>
+} 
+
+else if (DateTime.Now.Hour > 12 && DateTime.Now.Hour < 19)
+{
+    <p>Boa tarde!</p>
+}
+
+else
+{
+   <p>Boa Noite!</p> 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+body{
+    background-color: #235F91;
+    
+}
+
+a{
+    text-decoration: none;
+    color:White;
+}
+
+h1{
+    color:#C5D9EB;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+p{
+    color:#F7F7F7;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+</style>
