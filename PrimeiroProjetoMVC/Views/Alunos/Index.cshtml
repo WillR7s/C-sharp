@@ -1,0 +1,29 @@
+@model List<Aluno>
+@{
+    ViewData["Title"] = "Listagem de Alunos";
+}
+
+<h1>Listagem Geral De Alunos</h1>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Idade</th>
+        <th></th>
+    </tr>
+
+    @foreach(Aluno aluno in Model)
+    {
+        <tr>
+            <td>@aluno.Id</td>
+            <td>@aluno.Nome</td>
+            <td>@aluno.Email</td>
+            <td>@aluno.Idade</td>
+            <td>
+                <a asp-action="Detalhes" asp-route-id="@aluno.Id">Ver</a>
+            </td>
+
+        </tr>
+    }
+</table>
